@@ -143,7 +143,7 @@ The first thing that we need to do is to declare the unique [resource](https://d
         - For **User consent description** type `Allow the application to access ms-identity-javascript-tutorial-c3s1-api on your behalf.`
         - Keep **State** as **Enabled**
         - Click on the **Add scope** button on the bottom to save this scope.
-1. On the right side menu, select the `Manifest` blade.
+1. On the left side menu, select the `Manifest` blade.
    - Set `accessTokenAcceptedVersion` property to **2**.
    - Click on **Save**.
 
@@ -153,7 +153,7 @@ Open the project in your IDE (like Visual Studio or Visual Studio Code) to confi
 
 > In the steps below, "ClientID" is the same as "Application ID" or "AppId".
 
-1. Open the `config.json` file.
+1. Open the `config.json` file in 3-Authorization-II/1-call-api/API
 1. Find the key `clientID` and replace the existing value with the application ID (clientId) of the `ms-identity-javascript-tutorial-c3s1-api` application copied from the Azure portal.
 1. Find the key `tenantID` and replace the existing value with your Azure AD tenant ID.
 1. Find the key `audience` and replace the existing value with the application ID (clientId) of the `ms-identity-javascript-tutorial-c3s1-api` application copied from the Azure portal.
